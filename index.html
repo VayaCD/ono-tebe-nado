@@ -14,13 +14,15 @@
 <body>
   <header class="header">
     <div class="header-menu">
-      <ul class="header__links-list">
-        <li class="header__links-list-item_no-bullit"><a class="header__link_active" href="#main">главная</a></li>
-        <li><a href="#lots">посмотреть лоты</a></li>
-        <li><a href="#auction">об аукционе</a></li>
-      </ul>
+      <nav>
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit"><a class="header__link_active" href="#main">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#auction">об аукционе</a></li>
+        </ul>
+      </nav>
       <a class="header__logo">
-        <img src="images/logo.jpg" class="header__logo-image" alt="Черный оно тебе надо">
+        <img src="./images/logo.jpg" class="header__logo-image" alt="Черный оно тебе надо">
       </a>
       <address class="address">
         <a class="header__link" href="tel:+999955555">+9 999 555 55 55</a>
@@ -61,9 +63,9 @@
 
             </div>
             <div class="card">
-              <h2 class="card__title">
+              <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
-              </h2>
+              </h3>
               <p class="card__text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
               </p>
@@ -114,13 +116,13 @@
       <div class="about-wrapp">
         <div class="about__logo">
           <div class="about__logo-image">
-            <img src="images/logo-white.png" alt="Белый Оно тебе надо">
+            <img src="./images/logo-white.png" alt="Белый Оно тебе надо">
           </div>
         </div>
         <div class="about__column">
-          <h3 class="about__title">
+          <h2 class="about__title">
             Об аукционе
-          </h3>
+          </h2>
         </div>
       </div>
 
@@ -131,7 +133,7 @@
             должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
             может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
           </p>
-          <p>
+          <p class="about__bot_indent">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками.
             Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
             на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
@@ -146,17 +148,19 @@
 
   <footer class="footer">
     <address class="footer-adress">
-      <a class="footer__link" href="tel:+99995555555">+9 999 555 55 55</a>
-      <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p class="footer__address">наб. Принсенграхт 263- <br /> 265, Амстердам </p>
+      <a class="header__footer__link" href="tel:+99995555555">+9 999 555 55 55</a>
+      <a class="header__footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <p class="header__footer__address">наб. Принсенграхт 263- <br /> 265, Амстердам </p>
     </address>
 
 
-    <ul class="footer__links-list">
-      <li><a class="footer__link_active" href="#main">главная</a></li>
-      <li><a href="#lots">посмотреть лоты</a></li>
-      <li><a href="#auction">об аукционе</a></li>
-    </ul>
+    <nav>    
+      <ul class="footer__links-list">
+        <li><a class="footer__link_active" href="#main">главная</a></li>
+        <li><a href="#lots">посмотреть лоты</a></li>
+        <li><a href="#auction">об аукционе</a></li>
+      </ul>
+    </nav>
 
     <ul class="footer__socials-list">
       <li class="footer__socials-item">
