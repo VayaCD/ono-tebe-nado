@@ -2,14 +2,17 @@
 html {
   scroll-behavior: smooth;
 }
+
 .header {
   padding: 92px 24px 96px 24px;
 }
+
 .header-menu {
   display: flex;
   font-size: 18px;
   align-items: center;
 }
+
 .header__links-list {
   display: flex;
   justify-content: space-between;
@@ -34,11 +37,13 @@ html {
 }
 
 .address {
+  height: 98px;
   width: 240px;
   font-style: normal;
   margin-left: 184px;
   margin-right: 25px;
 }
+
 .header__footer__link {
   text-decoration: none;
   border-bottom: 1px solid black;
@@ -46,13 +51,16 @@ html {
   line-height: 24px;
   font-size: 18px;
 }
+
 .header__link_active {
   text-decoration: none;
 }
+
 .header__footer__address {
   font-size: 18px;
   line-height: 24px;
 }
+
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -61,6 +69,7 @@ html {
   background-position: center;
   z-index: 1;
 }
+
 .overlay {
   position: absolute;
   z-index: -1;
@@ -77,6 +86,7 @@ html {
   margin: 0 auto;
   padding-top: 165px;
 }
+
 .cover__tittle {
   display: flex;
   flex-direction: column;
@@ -93,9 +103,11 @@ html {
   line-height: 115px;
   letter-spacing: 0.3em;
 }
+
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
+
 .aligned-text_center {
   display: flex;
   line-height: 100px;
@@ -103,6 +115,7 @@ html {
   margin-left: 286px;
   margin-top: 20px;
 }
+
 .aligned-text_right {
   display: flex;
   line-height: 100px;
@@ -110,9 +123,11 @@ html {
   margin-left: 583px;
   margin-top: 20px;
 }
+
 .no-letter-spacing {
   letter-spacing: 0;
 }
+
 .cover__description {
   display: flex;
   justify-content: space-between;
@@ -120,6 +135,7 @@ html {
   align-items: center;
   padding-bottom: 51px;
 }
+
 .cover__description-text {
   color: white;
   font-size: 22px;
@@ -138,14 +154,16 @@ html {
   border: 1px solid #fff;
   margin-right: 50px;
   padding: 12px 32px 11px 31px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
+
 .lots {
   padding-top: 179px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 146px;
 }
+
 .lots__heading {
   margin-bottom: 27px;
   margin-left: 40px;
@@ -154,48 +172,56 @@ html {
   line-height: 47px;
   text-transform: uppercase;
 }
+
 .lots__card-list {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   flex-wrap: wrap;
   gap: 25px;
 }
+
 .lots__card-list-item {
   width: 334px;
   min-height: 563px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
+
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  position: relative;
   z-index: -2;
 }
+
 .card-link {
   z-index: 2;
   text-decoration: none;
 }
+
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   position: relative;
   z-index: -2;
 }
+
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   position: relative;
   z-index: -2;
 }
+
 .lots__look-more-link {
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
   line-height: 24px;
 }
+
 .lots__look-more-link a {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -204,6 +230,7 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .card__title {
   z-index: 2;
   text-decoration: underline;
@@ -214,6 +241,7 @@ html {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .card__text {
   z-index: 2;
   color: white;
@@ -224,6 +252,7 @@ html {
   margin-right: 40px;
   width: 254px;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -232,9 +261,11 @@ html {
   padding-bottom: 156px;
   justify-content: space-between;
 }
+
 .about__logo {
   width: 334px;
 }
+
 .about__logo-image {
   width: 240px;
   background-color: #000;
@@ -242,12 +273,14 @@ html {
   border-radius: 50%;
   margin: auto;
 }
+
 .about__column {
   width: 693px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
 }
+
 .about__title {
   font-weight: 700;
   font-size: 40px;
@@ -278,10 +311,12 @@ html {
 .about__bot_indent {
   margin-bottom: 24px;
 }
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 88px;
 }
 
 .footer-adress {
@@ -299,10 +334,12 @@ html {
   list-style: none;
   text-align: center;
 }
+
 .footer__link_active {
   list-style: none;
   text-decoration: none;
 }
+
 .footer__socials-list {
   width: 240px;
   display: flex;
@@ -311,6 +348,7 @@ html {
   list-style: none;
   margin-right: 50px;
 }
+
 .footer__socials-item {
   width: 48px;
   height: 48px;
