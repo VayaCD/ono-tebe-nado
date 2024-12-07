@@ -37,7 +37,7 @@ html {
 }
 
 .address {
-  height: 98px;
+  line-height: 24.3px;
   width: 240px;
   font-style: normal;
   margin-left: 184px;
@@ -186,11 +186,11 @@ html {
   background-size: cover;
   background-position: center;
   position: relative;
+  z-index: -2;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  z-index: -2;
 }
 
 .card-link {
